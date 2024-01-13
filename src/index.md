@@ -11,7 +11,7 @@ hero:
       link: /docs/README
     - theme: alt
       text: GitHub
-      link: https://github.com/zhaomy0506/H5-StudyNote
+      link: https://github.com/zhaomy0506/study-record
 
 features:
   - title: Feature A
