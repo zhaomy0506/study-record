@@ -23,6 +23,8 @@ mutations 加工、维护 (厨师)
 
 state 状态对象 (菜品)
 
+<img src="../../.image/vuex.png" style="zoom:80%;" />
+
 ## 搭建Vuex环境
 
 ```js

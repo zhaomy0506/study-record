@@ -3,10 +3,11 @@ import { defineConfig } from "vitepress";
 import sidebar from "../utils/vitepress-plugin-auto-sidebar";
 
 export default defineConfig({
-  title: "My Study Record",
+  title: "Study-Record",
   description: "这不是什么文档,仅是一个个人学习记录",
   base: "/study-record/",
   themeConfig: {
+    logo: "https://avatars.githubusercontent.com/u/63401085?v=4",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "主页", link: "/" },

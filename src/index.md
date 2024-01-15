@@ -3,8 +3,12 @@
 layout: home
 
 hero:
-  name: "My Study Record"
+  name: Study-Record
+  text: Vite & Vue Powered
   tagline: 这不是什么文档,仅是一个个人学习记录
+  image:
+    src: https://avatars.githubusercontent.com/u/63401085?v=4
+    alt: Logo
   actions:
     - theme: brand
       text: 快速开始
@@ -14,10 +18,23 @@ hero:
       link: https://github.com/zhaomy0506/study-record
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: ⚡️
+    title: Vite, The DX that can't be beat
+    details: Lorem ipsum...
+  - icon: 🖖
+    title: Power of Vue meets Markdown
+    details: Lorem ipsum...
+  - icon: 🛠️
+    title: Simple and minimal, always
+    details: Lorem ipsum...
 ---
+
+<style>
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(135deg, #FEC163 10%, #DE4313 100%);
+
+  --vp-home-hero-image-background-image: linear-gradient( 135deg, #FEC163 10%, #DE4313 100%);
+  --vp-home-hero-image-filter: blur(150px);
+}
+</style>
