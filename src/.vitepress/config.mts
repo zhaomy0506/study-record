@@ -18,5 +18,6 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/zhaomy0506/study-record" },
     ],
+    outline: "deep",
   },
 });

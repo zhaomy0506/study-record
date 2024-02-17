@@ -42,7 +42,7 @@ const generateSidebar = (options: generateSidebarParams) => {
 
       options.sidebar.push({
         text: item,
-        collapsed: true,
+        // collapsed: true,
         items: sidebarItem,
       });
     } else {
@@ -66,7 +66,7 @@ const sidebar: DefaultTheme.Sidebar = [];
 generateSidebar({
   sidebar,
   targetPath: path.join(path.resolve(), "./src/docs"),
-  whiteList: [".vitepress", ".image", ".vscode", ".git"],
+  whiteList: [".vitepress", ".image", ".vscode", ".git", "images"],
 });
 
 export default sidebar;
