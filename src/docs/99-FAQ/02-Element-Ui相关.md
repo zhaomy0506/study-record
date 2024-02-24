@@ -24,7 +24,7 @@ let rules = {
     /*
       1. required: 表示字段是必须的
       2. trigger: 表示触发校验的时机
-          blur: 失去焦点 change: 发生变化
+          blur: 失去焦点 change: 发生变化 none:手动触发
       3. validator: 自定义校验规则 -> 指定对应函数
     */
     name:[{required:true,trigger'blur',validator:validatorName}]
